@@ -88,7 +88,7 @@ houses %>%
 # houses %>%
 #   mutate(
 #     bedrooms_resid = residuals(__),
-#     logprice_resid = residuals(__)
+#     log_price_resid = residuals(__)
 #   ) %>%
 #   ggplot(aes(x = bedrooms_resid, y = log_price_resid)) +
 #   geom_point() +
